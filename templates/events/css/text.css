@@ -25,7 +25,7 @@ hr {
 
 
 h1 {
-	font-size: 70px;
+	font-size: 65px;
 	color:#86a720;
 	
 	margin-top: 10px;
@@ -61,8 +61,8 @@ div#row {
 
 h3#dotw_month {
 	
-	font-size: 15px;
-	color: #505050 ;
+	font-size: 16px;
+	color: #606060 ;
 	
 	text-align:center;
 			
@@ -73,7 +73,7 @@ h3#dotw_month {
 }
 h3#day {
 	font-size: 33px;
-	color: #505050 ;
+	color: #606060;
 	
 	text-align:center;
 		
@@ -87,9 +87,9 @@ h3#day {
 
 
 /*Time*/
-h4 {
+h4#time {
 	font-size: 15px;
-	color: #505050 ;
+	color: #606060 ;
 	font-weight:normal;
 	
 	margin-top: 0px;
@@ -99,23 +99,38 @@ h4 {
 }
 
 /*Title*/
-h2 {	
-	font-size: 33px;
+h2#title {	
+	font-size: 30px;
 	font-color: #101010 ;
-	line-height: 30px;
+	line-height: 23px;
 		
 	margin-top: 0px;
 	padding-top: 0px;
-	margin-bottom:  10px;
+	margin-bottom:  00px;
+	padding-bottom: 0px;
+}
+
+/*Subtext*/
+h4#subtext {
+	font-size: 15px;
+	color: #606060 ;
+	font-weight:normal;
+	line-height:27px;
+	
+	padding-left:1px;
+	
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom:  0px;
 	padding-bottom: 0px;
 }
 
 /*Location*/
-h5 {
+h5#location {
 	font-size: 20px;
-	color: #505050 ;
+	color: #606060 ;
 		
-	margin-top: 27px;
+	margin-top: 22px;
 	padding-top: 0px;
 	margin-bottom:  0px;
 	padding-bottom: 0px;

@@ -1,4 +1,5 @@
-Remove the 0 in front of the time
-Scrape Facebook for Events
+If there is subtext, create more space, if there is no subtext, less space
+Add JQuery
 Allow for subheadings under a given Title
 Explort Events To Google Calendar
+Scrape Facebook for Events

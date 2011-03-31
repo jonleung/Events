@@ -5,6 +5,7 @@ class Event(models.Model):
 	date = models.DateField()
 	time = models.TimeField()
 	title = models.CharField(max_length=50)
+	subtext = models.CharField(max_length=100, blank=True)
 	location = models.CharField(max_length=50)
 	url = models.CharField(max_length=4000, blank=True)
 	
@@ -59,7 +60,10 @@ class Event(models.Model):
 		return self.date.day
 		
 	def start_time(self):
-		return self.time.strftime("%I:%M%p")
+		time = self.time.strftime("%I:%M%p").lower()
+		if time[0] == '0':
+			time = time[1:]
+		return time
 	
 	def __unicode__(self):
 		return self.title + ' on ' + str(self.date)  + ' @ ' + str(self.time)
