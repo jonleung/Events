@@ -1,0 +1,151 @@
+/*
+	960 Grid System ~ Text CSS.
+	Learn more ~ http://960.gs/
+
+	Licensed under GPL and MIT.
+*/
+
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+body {
+	font: 13px/1.5 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+}
+
+hr {
+	border: 0 #ccc solid;
+	border-top-width: 1px;
+	clear: both;
+	height: 0;
+}
+
+/* `Headings
+----------------------------------------------------------------------------------------------------*/
+
+
+
+h1 {
+	font-size: 70px;
+	color:#86a720;
+	
+	margin-top: 10px;
+	padding-top: 0px;
+	margin-bottom:  0px;
+	padding-bottom: 3px;
+}
+
+div#top_row {
+	border-bottom-style:solid;
+	border-color:#B8B8B8  ;
+	border-width: 1px;
+	
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom:  20px;
+	padding-bottom: 0px;
+}
+
+div#row {
+	border-bottom-style:solid;
+	border-color:#B8B8B8  ;
+	border-width: 1px;
+	
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom:  20px;
+	padding-bottom: 20px;
+}
+
+
+
+
+h3#dotw_month {
+	
+	font-size: 15px;
+	color: #505050 ;
+	
+	text-align:center;
+			
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom:  0px;
+	padding-bottom: 0px;
+}
+h3#day {
+	font-size: 33px;
+	color: #505050 ;
+	
+	text-align:center;
+		
+	line-height: 28px;
+	
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom:  0px;
+	padding-bottom: 0px;
+}
+
+
+/*Time*/
+h4 {
+	font-size: 15px;
+	color: #505050 ;
+	font-weight:normal;
+	
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom:  0px;
+	padding-bottom: 0px;
+}
+
+/*Title*/
+h2 {	
+	font-size: 33px;
+	font-color: #101010 ;
+	line-height: 30px;
+		
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom:  10px;
+	padding-bottom: 0px;
+}
+
+/*Location*/
+h5 {
+	font-size: 20px;
+	color: #505050 ;
+		
+	margin-top: 27px;
+	padding-top: 0px;
+	margin-bottom:  0px;
+	padding-bottom: 0px;
+}
+
+h6 {
+	font-size: 15px;
+}
+
+p {
+	font-size: 33px;
+	font-color: #101010 ;
+	line-height: 30px;
+	font-weight: bold;
+}
+/*set height and then position of the bottom*/
+
+
+/* `Spacing
+----------------------------------------------------------------------------------------------------*/
+
+ol {
+	list-style: decimal;
+}
+
+ul {
+	list-style: disc;
+}
+
+li {
+	margin-left: 30px;
+}
+

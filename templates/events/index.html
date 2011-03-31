@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>
+		Events
+	</title>
+	<link rel="stylesheet" href="http://localhost/~jonathan/Events/css/reset.css" type="text/css">
+	<link rel="stylesheet" href="http://localhost/~jonathan/Events/css/text.css" type="text/css">
+	<link rel="stylesheet" href="http://localhost/~jonathan/Events/css/960.css" type="text/css">
+</head>
+<body>
+	<div id="header" class="container_16">
+		<div class="grid_16">
+			<div id="header" class="grid_16">
+				<h1>
+					CIS@Penn
+				</h1>
+			</div>
+		</div>
+	</div>
+
+	<div id="contiainer" class="container_16">
+		<div id="top_row" class="grid_16">
+		</div>
+	</div>
+
+	{% if events %} <!--Need to add "There are no events"-->
+	{% for event in events %}
+	<div id="contiainer" class="container_16">
+		<div id="row" class="grid_16">
+			<div id="left" class="grid_3 alpha">
+				<h3 id="dotw_month">
+					{{event.dotw_month}}
+				</h3>
+				<h3 id="day">
+					{{event.day}}
+				</h3>
+			</div>
+			<div id="middle" class="grid_7">
+				<h4>
+					{{event.start_time}}
+				</h4>
+				<h2>
+					{{event.title}}
+				</h2>
+			</div>
+			<div id="right" class="grid_5 omega">
+				<h5>
+					{{event.location}}
+				</h5>
+			</div>
+		</div>
+	</div>
+	{%endfor%} 
+	{% else %}
+	<div id="no_events" class="container_16">
+		<div class="grid_16">
+			<div id="no_events" class="grid_16">
+				<p id="nothing">
+					No events here!
+					You should go organize something!
+				</p>
+			</div>
+		</div>
+	</div>
+
+	{% endif %}
+
+</body>
+</html>
