@@ -1,5 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html lang="en">
+
+<!--Notes:
+{{event.google_calendar|safe}}
+-->
+
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>
@@ -8,26 +13,27 @@
 	<link rel="stylesheet" href="http://localhost/~jonathan/Events/css/reset.css" type="text/css">
 	<link rel="stylesheet" href="http://localhost/~jonathan/Events/css/text.css" type="text/css">
 	<link rel="stylesheet" href="http://localhost/~jonathan/Events/css/960.css" type="text/css">
+	<script src="http://code.jquery.com/jquery-1.5.js"></script>
 </head>
 <body>
 	<div id="header" class="container_16">
 		<div class="grid_16">
 			<div id="header" class="grid_16">
-				<h1>
+				<h1 onclick="location.href='http://www.facebook.com/group.php?gid=114452511948567';" style="cursor:pointer;">
 					CIS@Penn
 				</h1>
 			</div>
 		</div>
 	</div>
 
-	<div id="contiainer" class="container_16">
+	<div class="container_16">
 		<div id="top_row" class="grid_16">
 		</div>
 	</div>
 
 	{% if events %} <!--Need to add "There are no events"-->
 	{% for event in events %}
-	<div id="contiainer" class="container_16">
+	<div id="contiainer" class="container_16"     onclick="location.href='{{event.httpafy}}';" style="cursor:pointer;"		>
 		<div id="row" class="grid_16">
 			<div id="left" class="grid_3 alpha">
 				<h3 id="dotw_month">
@@ -37,7 +43,7 @@
 					{{event.day}}
 				</h3>
 			</div>
-			<div id="middle" class="grid_7">
+			<div id="middle" class="grid_8">
 				<h4 id="time">
 					{{event.start_time}}
 				</h4>
@@ -46,7 +52,7 @@
 				</h2>
 				<h4 id="subtext"> {{event.subtext}} </h4>
 			</div>
-			<div id="right" class="grid_5 omega">
+			<div id="right" class="grid_4 omega">
 				<h5 id="location">
 					{{event.location}}
 				</h5>

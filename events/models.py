@@ -1,5 +1,6 @@
 from django.db import models
-import datetime
+from datetime import datetime, date, time, timedelta
+import re, string
 
 class Event(models.Model):
 	date = models.DateField()
@@ -7,7 +8,7 @@ class Event(models.Model):
 	title = models.CharField(max_length=50)
 	subtext = models.CharField(max_length=100, blank=True)
 	location = models.CharField(max_length=50)
-	url = models.CharField(max_length=4000, blank=True)
+	url = models.CharField(max_length=4000)
 	
 	def dotw_month(self):
 		weekday = self.date.weekday()
@@ -65,8 +66,48 @@ class Event(models.Model):
 			time = time[1:]
 		return time
 	
+	def httpafy(self):
+		return_url = self.url
+		if self.url[0:7] != "http://":
+			return 'http://' + return_url
+		return return_url
+	
 	def __unicode__(self):
 		return self.title + ' on ' + str(self.date)  + ' @ ' + str(self.time)
+	
+	def google_calendar(self):
+		
+		safe_title = self.title.replace(r' ',r'%20')
+		safe_location = self.location.replace(r' ',r'%20')
+		safe_subtext = self.subtext.replace(r' ',r'%20')
+		
+		o = r'http://www.google.com/calendar/event?action=TEMPLATE&text='
+		o+= safe_title
+		o+= r'&dates='
+		o+= self.date.strftime('%Y%m%d')
+		o+= r'T'
+		o+=(datetime.combine(self.date, self.time) + timedelta(hours=4)).strftime('%H%M%S')
+		o+= r'Z/'
+		o+= self.date.strftime('%Y%m%d')
+		o+= 'T'
+		o+=(datetime.combine(self.date, self.time) + timedelta(hours=5)).strftime('%H%M%S')
+		o+= r'Z'
+		
+		if self.subtext:
+			o+= r'&details=' + safe_subtext
+			
+		o+= r'&location=' + safe_location
+		o+= r'&trp=false'
+		
+		if self.url:
+			o+=r'&sprop=' + self.url
+		o+= r''
+		
+		return o
+		
+		
+		
+		
 		
 #Mon
 #Tue

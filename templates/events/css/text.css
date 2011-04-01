@@ -28,8 +28,10 @@ h1 {
 	font-size: 65px;
 	color:#86a720;
 	
-	margin-top: 10px;
-	padding-top: 0px;
+	width:100px;
+	
+	margin-top: 0px;
+	padding-top: 10px;
 	margin-bottom:  0px;
 	padding-bottom: 3px;
 }
@@ -39,10 +41,14 @@ div#top_row {
 	border-color:#B8B8B8  ;
 	border-width: 1px;
 	
+	/*background-color:yellow;
+	border-style:solid;
+	border-color:black;*/
+	
 	margin-top: 0px;
 	padding-top: 0px;
-	margin-bottom:  20px;
-	padding-bottom: 0px;
+	margin-bottom:  0px;
+	padding-bottom: 10px;
 }
 
 div#row {
@@ -50,12 +56,16 @@ div#row {
 	border-color:#B8B8B8  ;
 	border-width: 1px;
 	
+	/*background-color:pink;*/
+	
+	
 	margin-top: 0px;
-	padding-top: 0px;
-	margin-bottom:  20px;
+	padding-top: 20px;
+	margin-bottom:  0px;
 	padding-bottom: 20px;
 }
 
+div#contiainer div:hover { background: #DBDBDB; } /*E7FFE2*/
 
 
 
@@ -130,8 +140,8 @@ h5#location {
 	font-size: 20px;
 	color: #606060 ;
 		
-	margin-top: 22px;
-	padding-top: 0px;
+	margin-top: 0px;
+	padding-top: 22px;
 	margin-bottom:  0px;
 	padding-bottom: 0px;
 }
@@ -146,6 +156,11 @@ p {
 	line-height: 30px;
 	font-weight: bold;
 }
+
+
+
+
+
 /*set height and then position of the bottom*/
 
 
