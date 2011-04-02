@@ -26,6 +26,12 @@
 			<key>sourceDirectory</key>
 			<string></string>
 		</dict>
+		<dict>
+			<key>filename</key>
+			<string>events/To-Do</string>
+			<key>lastUsed</key>
+			<date>2011-04-01T01:39:09Z</date>
+		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>200</integer>
@@ -36,14 +42,42 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>108</integer>
+				<integer>182</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>4</integer>
+			<integer>154</integer>
+		</dict>
+		<key>apache/events.wsgi</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>5</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>events/To-Do</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>30</integer>
+				<key>line</key>
+				<integer>1</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
 		</dict>
 		<key>events/admin.py</key>
 		<dict>
@@ -64,14 +98,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>21</integer>
+				<integer>16</integer>
 				<key>line</key>
-				<integer>55</integer>
+				<integer>84</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>22</integer>
+			<integer>33</integer>
 		</dict>
 		<key>events/views.py</key>
 		<dict>
@@ -100,6 +134,20 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>50</integer>
+		</dict>
+		<key>templates/DateTimeShortcuts.js</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
 		</dict>
 		<key>templates/events/css/960.css</key>
 		<dict>
@@ -134,43 +182,31 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>22</integer>
+				<integer>9</integer>
 				<key>line</key>
-				<integer>16</integer>
+				<integer>81</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>5</integer>
-		</dict>
-		<key>urls.py</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>29</integer>
-				<key>line</key>
-				<integer>13</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>58</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
 		<string>settings.py</string>
 		<string>events/models.py</string>
-		<string>urls.py</string>
-		<string>templates/events/index.html</string>
+		<string>events/To-Do</string>
 		<string>events/views.py</string>
+		<string>templates/events/index.html</string>
 		<string>../../../../Sites/Events/css/text.css</string>
+		<string>templates/DateTimeShortcuts.js</string>
 		<string>events/admin.py</string>
+		<string>apache/events.wsgi</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
-	<true/>
+	<false/>
 	<key>windowFrame</key>
-	<string>{{931, 4}, {509, 874}}</string>
+	<string>{{0, 4}, {720, 874}}</string>
 </dict>
 </plist>
