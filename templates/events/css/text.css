@@ -171,6 +171,7 @@ p {
 	font-weight: bold;
 }
 
+<<<<<<< HEAD
 a.tryagain{
 	
 		height:-20px;
@@ -181,14 +182,11 @@ a.tryagain{
 		background: url("http://localhost/~jonathan/Events/css/cal.png") no-repeat 0 0;
 }
 
+=======
 
-}
 
-h1.technique-three {
-        width: 350px; height: 75px;
-        background: url("http://localhost/~jonathan/Events/css/cal.png");
-        text-indent: -9999px;
-}
+>>>>>>> 69f6627... sortov working trying to get cal to disply
+
 
 /*set height and then position of the bottom*/
 
