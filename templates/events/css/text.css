@@ -65,17 +65,9 @@ div#row {
 	padding-bottom: 20px;
 }
 
-div#container div:hover { background: #DBDBDB; } /*E7FFE2*/
+div#contiainer div:hover { background: #DBDBDB; } /*E7FFE2*/
 
-img.cal{
-	/*display:none;*/
-	
-	
-	margin-top: 0px;
-	padding-top: 0px;
-	margin-bottom:  0px;
-	padding-bottom: 0px;
-}
+
 
 h3#dotw_month {
 	
@@ -105,29 +97,23 @@ h3#day {
 
 
 /*Time*/
-div#time {
+h4#time {
 	font-size: 15px;
 	color: #606060 ;
 	font-weight:normal;
 	
-	vertical-align:top;
-	height:25px;
-		
 	margin-top: 0px;
 	padding-top: 0px;
 	margin-bottom:  0px;
 	padding-bottom: 0px;
-	padding-left:1px;
 }
 
-
-
 /*Title*/
-div#title {	
+h2#title {	
 	font-size: 30px;
 	font-color: #101010 ;
 	line-height: 23px;
-			
+		
 	margin-top: 0px;
 	padding-top: 0px;
 	margin-bottom:  00px;
@@ -175,15 +161,29 @@ p {
 <<<<<<< HEAD
 a.tryagain{
 	
-		height:-20px;
-		position:relative;
-		bottom:10px;
-		left:10px;
-		
 		background: url("http://localhost/~jonathan/Events/css/cal.png") no-repeat 0 0;
 }
 
+<<<<<<< HEAD
 =======
+=======
+a.technique-two {
+        width: 0px; height: 0px;
+        background: url("http://localhost/~jonathan/Events/css/cal.png") top left;
+        margin: 0 0 0 100px;
+}
+
+h1.technique-four {
+        width: 350px; height: 40px;
+        background-image: url("http://localhost/~jonathan/Events/css/cal.png");
+		background-repeat:no-repeat;
+        text-indent: -9999px;
+		
+		margin-top: 0px;
+		padding-top: 0px;
+		margin-bottom:  0px;
+		padding-bottom: 0px;
+>>>>>>> 4f2ee0e... hackerish code that displays and hides google cal
 
 
 >>>>>>> 69f6627... sortov working trying to get cal to disply

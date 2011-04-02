@@ -6,6 +6,7 @@
 -->
 
 <head>
+<<<<<<< HEAD
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
 	
@@ -29,6 +30,11 @@
 	
 	
 
+=======
+	<script>
+	
+	</script
+>>>>>>> 4f2ee0e... hackerish code that displays and hides google cal
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>
 		Events
@@ -56,7 +62,7 @@
 
 	{% if events %} <!--Need to add "There are no events"-->
 	{% for event in events %}
-	<div id="container" class="container_16"     onclick="location.href='{{event.httpafy}}';" style="cursor:pointer;"		>
+	<div id="contiainer" class="container_16"     onclick="location.href='{{event.httpafy}}';" style="cursor:pointer;"		>
 		<div id="row" class="grid_16">
 			<div id="left" class="grid_3 alpha">
 				<h3 id="dotw_month">
@@ -66,14 +72,8 @@
 					{{event.day}}
 				</h3>
 			</div>
-			
-			
-			
-			
-			
-			
-			
 			<div id="middle" class="grid_8">
+<<<<<<< HEAD
 
 
 			<div id="time">
@@ -86,32 +86,33 @@
 				<h4 id="time">
 					{{event.start_time}}
 				</h4>
+=======
+				
+				        
+				  
+				</h1>
+				<h4 id="time">
+					{{event.start_time}}
+					<a target="_blank" class="tryagain" href="http://www.facebook.com/group.php?gid=116326015092838"><span>Our Facebook Group</span></a>
+				</h4>
+				
+>>>>>>> 4f2ee0e... hackerish code that displays and hides google cal
 				<h2 id="title">
 					{{event.title}}
 				</h2>
 				<h4 id="subtext"> {{event.subtext}} </h4>
+<<<<<<< HEAD
 			</div>
 			
 			
 
 			<div id="title">
 				{{event.title}}
+=======
+>>>>>>> 4f2ee0e... hackerish code that displays and hides google cal
 			</div>
-			<h4 id="subtext"> {{event.subtext}} </h4>
-		</div>
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		<div id="right" class="grid_4 omega">
-			<h5 id="location">
+			<div id="right" class="grid_4 omega">
+				<h5 id="location">
 					{{event.location}}
 				</h5>
 			</div>
