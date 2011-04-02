@@ -7,14 +7,12 @@
 	<key>documents</key>
 	<array>
 		<dict>
-			<key>expanded</key>
-			<true/>
 			<key>name</key>
 			<string>css</string>
 			<key>regexFolderFilter</key>
 			<string>!.*/(\.[^/]*|CVS|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$</string>
 			<key>sourceDirectory</key>
-			<string>../../../../Sites/Events/css</string>
+			<string>/Sites/Events/css</string>
 		</dict>
 		<dict>
 			<key>expanded</key>
@@ -37,20 +35,6 @@
 	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
-		<key>../../../../Sites/Events/css/text.css</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>182</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>154</integer>
-		</dict>
 		<key>apache/events.wsgi</key>
 		<dict>
 			<key>caret</key>
@@ -182,14 +166,30 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>9</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>81</integer>
+				<integer>8</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>58</integer>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>12</integer>
+				<key>line</key>
+				<integer>8</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>8</integer>
+			</dict>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
@@ -199,7 +199,6 @@
 		<string>events/To-Do</string>
 		<string>events/views.py</string>
 		<string>templates/events/index.html</string>
-		<string>../../../../Sites/Events/css/text.css</string>
 		<string>templates/DateTimeShortcuts.js</string>
 		<string>events/admin.py</string>
 		<string>apache/events.wsgi</string>
@@ -207,6 +206,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<false/>
 	<key>windowFrame</key>
-	<string>{{0, 4}, {720, 874}}</string>
+	<string>{{720, 4}, {720, 874}}</string>
 </dict>
 </plist>
